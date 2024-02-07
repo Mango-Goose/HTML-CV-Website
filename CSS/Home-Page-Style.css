@@ -8,23 +8,26 @@ h1, h3, div, #Portfolio, #Contact+Cv, #Professional-Links{
 }
 
 #Top-Page-Strip {
-    height: 75px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
     padding-top: 30px;
-    padding-left: 500px;
+    padding-bottom: 30px;
     background-color: #3e3535;
     border: 5px solid black;
     position: sticky;
     top: 0px;
     left: 0px;
 }
-
 body{
     background-color: #3e3535;
 }
 
 #Portfolio {
     margin: 50px;
+    padding: 20px;
     border:5px solid blue;
+    width: 100%;
 }
 
 p{

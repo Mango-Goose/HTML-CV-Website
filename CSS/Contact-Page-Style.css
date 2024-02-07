@@ -1,8 +1,21 @@
-* {
+h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
     justify-content: center;
     color: #eed2d2;
+}
+
+#Top-Page-Strip {
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3e3535;
+    border: 5px solid black;
+    position: sticky;
+    top: 0px;
+    left: 0px;
 }
