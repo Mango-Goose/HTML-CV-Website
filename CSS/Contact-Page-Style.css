@@ -1,3 +1,15 @@
+#Contact-Information, #Top-Page-Strip, #Contact-Form, #Contact-Information, div, h1, h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #eed2d2;
+}
+body {
+    background-color: #3e3535;
+}
+
 h1 {
     display: flex;
     flex-wrap: wrap;
@@ -11,11 +23,24 @@ h1 {
     display:flex;
     justify-content: center;
     height: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #3e3535;
     border: 5px solid black;
     position: sticky;
     top: 0px;
     left: 0px;
+}
+
+#Contact-Information {
+    align-items: center;
+    justify-content: center;
+    border: 15px solid black;
+    margin-bottom: 75px;
+}
+
+#Contact-Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
