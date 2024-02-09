@@ -1,0 +1,20 @@
+#Top-Page-Strip {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3e3535;
+    border: 5px solid black;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+body {
+    background-color: #3e3535;
+}
+.Dreamscape-logo{
+    display:flex;
+    justify-content:center;
+    align-content:center
+}
