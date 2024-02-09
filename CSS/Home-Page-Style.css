@@ -1,4 +1,4 @@
-h1, h3, #Portfolio, #Contact+Cv, #Professional-Links{
+h1, h3, #Portfolio, #Contact+Cv, footer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,7 +15,7 @@ h1{
 h3{
     font-size: 30px;
 }
-.Introduction::after{
+.main-header::after{
     content: "";
     clear:both;
     display: flex;
@@ -55,7 +55,7 @@ p{
    padding: 25px, 25px, 25px, 25px;
 }
 
-#Professional-Links{
+footer{
     padding-top:500px;
     border: 1px solid black;
 }
