@@ -24,20 +24,23 @@ validateForm = function () {
 function checkEmails() {
     let firstEmail = contactForm.email;
     let confirmEmail2 = document.getElementById("confirmEmail");
-
+    console.log("CHanged");
     //have to make sure that the first email is of the right format first
-    if (firstEmail .@.) {
-
-    }
-    if (firstEmail === confirmEmail2) {
-        validEmail = true;
-        console.log("YES");
-        errorText.innerText = "yes";
+    if (firstEmail.value.match(".@.")) {
+        //now nest the if to check of both match and both are of the correct format
+        if (firstEmail === confirmEmail2) {
+            validEmail = true;
+            console.log("YES");
+            errorText.innerText = "yes";
+        }
+        else {
+            errorText.innerText = "Emails do not match";
+            console.log("EMAILS DONT MATCH");
+            validEmail = false;
+        }
     }
     else {
-        errorText.innerText = "Emails do not match";
-        console.log("EMAILS DONT MATCH");
-        validEmail = false;
+        errorText.innerText = "Not a valid email"
     }
     //document.getElementById("test") = text;
 }

@@ -1,0 +1,27 @@
+body {
+    background-color: #443742;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #443742;
+    border: 5px solid #6C5A4B;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+h3{
+    font-size: 50px;
+}
+h3, p {
+    color: #eed2d2;
+    font-family:Courier New, Courier, monospace;
+}
+
+#Website-Portfolio{
+    text-align: center;
+}

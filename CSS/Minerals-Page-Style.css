@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #443742;
+    border: 5px solid #6C5A4B;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+body {
+    background-color: #443742;
+}
+
+h1, h2, h3, p {
+    font-family: Courier New, Courier, monospace;
+    color: #eed2d2;
+    text-align:center;
+}
+h3{
+    font-size: 37px;
+}
+
+h1{
+    font-size: 50px;
+}
