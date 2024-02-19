@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="CSS/Contact-Page-Style.css" />
+    <script defer src="JavaScript/ContactChecks.js"></script>
     <title></title>
 </head>
 <body>
     <!--Navigation bar found on each page-->
-    <section id="Top-Page-Strip">
+    <header>
+        <nav>
         <a href="Contact-Page.html">
             <button>Contact me!</button>
         </a>
@@ -31,8 +33,10 @@
         <a href="https://github.com/Mango-Goose">
             <img src="GitHub-Logo.png" alt="My GitHub" width="50" height="50" />
         </a>
-    </section>
+            </nav>
+    </header>
 
+    <main>
     <!--General contact info: email, phone number, etc...-->
     <section id="Contact-Information">
         <h1>Have a question? Contact me!</h1>
@@ -41,14 +45,17 @@
     </section>
 
    <!--Contact form to fill out on website-->
-        <form id="Contact-Form">
-            <input type="text" name="fName" placeholder="First Name" />
-            <input type="text" name="Lname" placeholder="Last Name" /><br /><br />
-            <input type="text" id="email" placeholder="Email Address" />
-            <input type="text" id="confirmEmail" placeholder="Confirm Email" /><br /></br>
-            <textarea id="contactReason" name="contactReason" rows="10" cols="50">Enter Reason for contact</textarea>
+        <form id="Contact-Form" >
+            <h2>Contact Form</h2>
+            <input type="text" name="fName" placeholder="First Name" required />
+            <input type="text" name="Lname" placeholder="Last Name"  required/><br /><br />
+            <input type="text" id="email" placeholder="Email Address" required />
+            <input type="text" id="confirmEmail" placeholder="Confirm Email"  required/><br /></br>
+            <textarea required id="contactReason" name="contactReason" placeholder="Enter reason for contact" rows="10" cols="50" ></textarea>
+            <div id="error">asdf</div>
             <input type="submit" value="Submit" />
         </form>
     <p id="test"></p>
+        </main>
 </body>
 </html>

@@ -5,7 +5,7 @@ h1, h3, #Portfolio, #Contact+Cv, footer{
     justify-content: center;
     color: #eed2d2;
 }
-h1, h3, p{
+h1, h3, p, li{
     font-family: 'Comic Sans MS';
 }
 
@@ -23,7 +23,7 @@ h3{
 }
 
 
-#Top-Page-Strip {
+header {
     display: flex;
     justify-content: center;
     height: 50px;
