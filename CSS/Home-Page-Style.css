@@ -1,11 +1,11 @@
-h1, h3, #Portfolio, #Contact + Cv, footer {
+h1, h3, #Portfolio, #Contact + Cv, footer, h4 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     color: #eed2d2;
 }
-h1, h3, p, li{
+h1, h3, p, li, h4{
     font-family: Courier New, Courier, monospace;
 }
 
